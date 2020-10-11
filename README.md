@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a website for a business person who is in restaurant industry and sells a range pizza to customers through online orders and he delivers them to the client location.
+This is a website for a business person who is in restaurant industry and sells a range of pizza to customers through online orders and he delivers them to the client location.
 
 ## Author
 
