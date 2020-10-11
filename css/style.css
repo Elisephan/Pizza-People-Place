@@ -3,14 +3,14 @@ body {
 }
 
 span {
-    color: gray
+    color: gray;
 }
 
 .nav h3 {
     font-weight: bold;
     font-size: 50px;
     color: coral;
-    font-family: 'Chilanka', cursive;
+    font-family: "Chilanka", cursive;
     padding-top: 1%;
     padding-left: 1%;
 }
@@ -48,7 +48,7 @@ li a:hover {
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     text-align: center;
     color: black;
@@ -56,7 +56,7 @@ h1 {
 }
 
 .home {
-    background-image: url(https://images.unsplash.com/photo-1595378833483-c995dbe4d74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-image: url(..//images/pizza-3411795__342.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -66,7 +66,7 @@ h1 {
     padding-top: 5%;
     text-align: center;
     font-size: 50px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive;
     color: coral;
 }
 
@@ -150,7 +150,7 @@ p {
 
 #orders h2 {
     padding-bottom: 2%;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive;
     color: coral;
 }
 
@@ -164,7 +164,7 @@ p {
 
 .type h2 {
     padding-top: 2%;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive;
     color: coral;
 }
 
@@ -173,7 +173,7 @@ p {
 }
 
 .type .img2 {
-    opacity: 1.0;
+    opacity: 1;
     transition: 0.2s;
 }
 
