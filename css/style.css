@@ -44,11 +44,11 @@ li a:hover {
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
+    font-family: font-family: 'Bungee', cursive;
+    font-size: 60px;
     text-align: center;
-    color: paleturquoise;
-    padding: 300px;
+    color: white;
+    padding: 0px;
 }
 
 .home {
