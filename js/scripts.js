@@ -84,7 +84,7 @@ $(document).ready(function() {
         prompt("enter your email address");
         prompt("enter your phone number");
         prompt("enter your location");
-        alert("Your pizza will be delivered");
+        alert("Your pizza will be delivered, Thank you!!");
 
         //a method to reset the form after all operations have been completed
         $("#text-center").reset();
@@ -92,3 +92,4 @@ $(document).ready(function() {
         event.preventDefault();
     });
 });
+//<div class="container">

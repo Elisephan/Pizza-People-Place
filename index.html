@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <title>People Pizza Palace</title>
 </head>
 
 <body>
     <!--navigation bars-->
     <div class="nav">
-        <h3>People<span> Pizza</span> Palace</h3>
+        <h3><span>People</span> Pizza Palace </h3>
         <div class="navbar">
             <nav>
                 <ul>
                     <li>
-                        <a href="#aboutus">About us</a>
+                        <a href="#aboutus">About Us</a>
                     </li>
                     <li>
                         <a href="#menu">Menu</a>
@@ -39,7 +35,7 @@
     </div>
     <div class="home">
         <h1>
-            <em>WELCOME TO PEOPLE PIZZA PALACE!</em>
+            <em>WELCOME TO<br>Best Pizza!</em>
         </h1>
     </div>
     <!--About Us-->
@@ -47,96 +43,105 @@
         <h2>About us</h2>
         <div class="row">
             <div id="img1" class="text-center">
-                <img src="images/pizza-4206063__340.webp">
+                <img src="images/pizza-4165635__340.jpg">
             </div>
-            <div class="about>
-                <div id=" about-us " class="text-center ">
-                    <p><b>People<span> Pizza Palace</span></b></p>
-                    <div id="aboutus ">
-                        <p>We are not only a place but <strong> a Pizza Palace </strong> in Rwanda. We are here for you and we have got all you need when it comes to your favourites Pizza.<br> Our chef has many years of experience in mixing the right ingredients
-                            for both small,medium and large sort of pizza.<br/> Small Pizza: 8-10 inches with 6 slices.<br/> Medium Pizza: 12 inches with 8 slices.<br/>Large Pizza: 14 inch with 10 slices.<br/>
-                        </p>
-                    </div>
+            <div id="about-us" class="text-center">
+                <p><b>@<span> People Pizza Palace </span></b></p>
+                <p></p>
+                <div id="aboutus">
+                    <p> You get 100% satisfaction.We value both your money and time.Therefore we treat you like <strong>a King @ Palace .</strong> Our chef has a significant number of years in Pizza making.<br> He knows he best mix of ingredients for both
+                        small,medium and large type of piza.
+                    </p>
                 </div>
-        </div>
-
-    </div>
-    <!--Menu-->
-    <div class="container text-center ">
-        <h2>Menu</h2>
-        <div id="menu ">
-            <div class="textOverImage " style="background-image: url(images/pizza-2803176__341.jpg ) " data-text="Small Size Pizza: Rwf5,000 ">
             </div>
-            <div class="textOverImage " style="background-image: url(images/pizza-3411795__342.jpg ) " data-text="Medium Size Pizza: Rwf8,000 ">
+
+        </div>
+        <!--Menu-->
+        <div class="container text-center">
+            <h2>Menu</h2>
+            <div id="menu">
+                <div class="textOverImage" style="background-image: url(images/wood-fired-pizzas-2119644__340.webp )" data-text="Small Size Pizza: Rwf4,000">
+                </div>
+                <div class="textOverImage" style="background-image: url(images/pizza-442058__340.jpg )" data-text="Medium Size Pizza: Rwf7,000">
+                </div>
+                <div class="textOverImage" style="background-image: url(images/download.jpeg )" data-text="Large Size Pizza: Rwf10,000">
+                </div>
             </div>
-            <div class="textOverImage " style="background-image: url(images/session-2287673__343.jpg ) " data-text="Large Size Pizza: Rwf12,000 ">
+        </div>
+        <!--Types of pizza-->
+        <div class="type">
+            <h2>Types Of Pizza</h2>
+            <h2>Crispy</h2>
+            <div class="img2">
+                <img src="images/pizza-5179939__340.jpg" width="500px" height="400px">
+            </div>
+            <h2>Stuffed Pizza</h2>
+            <div class="img2">
+                <img src="images/pizza-4407511__340.webp" width="500px" height="400px">
+            </div>
+            <h2>Glutten-free Pizza</h2>
+            <div class="img2">
+                <img src="images/pizza-2000615__340.webp" width="500px" height="400px">
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <!--Types of pizza-->
-    <div class="type ">
-        <h2>Types Of Pizza</h2>
-        <h2>Crispy</h2>
-        <div class="img2 ">
-            <img src="images/pizza-3411795__342.jpg " width="500px " height="400px ">
+        <!--Orders-->
+        <div class="container" id="orders">
+            <h2>Order</h2>
+            <form class="text-center" id="text-center">
+                <label>Pizza flavor</label><br>
+                <select class="flavors" id="flavor" required><br>
+                    <option label="chicken Palace pizza" value="800">Chicken Alfredo Pizza</option>
+                    <option label="Taco Palace Pizza" value="1200">Taco Quesadila Pizza</option>
+                    <option label="Mushrooms" value="350">Mushrooms</option>
+                    <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
+                    <option label="Beef pizza" value="500">Beef pizza</option>
+                    <option label=" Hot dog Sausage pizza" value="650">Sausage pizza</option>
+
+                </select><br>
+                <br><label>Pizza Size</label><br>
+                <select class="sizes" id="size" required><br>
+                    <option label="Regular" value="300">Regular</option>
+                    <option label="Medium" value="600">Medium</option>
+                    <option label="Large" value="1200">Large</option>
+                </select><br>
+                <br><label>Pizza Crust</label><br>
+                <select class="crust" id="crust" required><br>
+                    <option label="Thin Crust" value="150">Thin Crust</option>
+                    <option label="Thick Crust" value="200">Thick Crust</option>
+                    <option label="Deep Crust" value="380">Deep Crust</option>
+                    <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+                    <option label="Stuffed Crust" value="345">Stuffed Crust</option>
+                </select><br>
+                <br><label>Pizza Topping</label><br>
+                <select class="toppings" id="topping" required><br>
+                    <option label="Pepperoni" value="100">Pepperoni</option>
+                    <option label="Mushrooms" value="300">Mushrooms</option>
+                    <option label="Onions" value="120">Onions</option>
+                    <option label="Sausage" value="124">Sausage</option>
+                    <option label="Green peppers" value="80">Green peppers</option>
+                </select><br>
+                <br><label>Number of pizza</label><br>
+                <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+                <div class="button">
+                    <br><br><button type="submit" id="btn" label="">submit</button>
+                </div>
+            </form>
         </div>
-        <h2>Stuffed Pizza</h2>
-        <div class="img2 ">
-            <img src="images/session-2287673__343.jpg " width="500px " height="400px ">
+        <br><br>
+        <!--footer-->
+        <div class="card-footer" id="contacts">
+            <h4>Contacts</h4>
+            <a class="pr-2"><img src="images/social_icons/behance.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/dribble.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/facebook.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/flickr.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/g_plus.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/pinterest.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/skype.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/stumble_upon.png" alt=""></a>
+            <a class="pr-2"><img src="images/social_icons/you_tube.png" alt=""></a><br>
+            <h6>PEOPLE PIZZA PALACE <br>2020</h6>
         </div>
-        <h2>Glutten-free Pizza</h2>
-        <div class="img2 ">
-            <img src="images/pizza-2803176__341.jpg " width="500px " height="400px ">
-        </div>
-    </div>
-
-    <!--Orders-->
-    <div class="container " id="orders ">
-        <h2>Order</h2>
-        <form class="text-center " id="text-center ">
-            <label>pizza flavor</label><br>
-            <select class="flavors " id="flavor " required><br>
-            <option label="chicken alfredo pizza " value="800 ">Chicken Alfredo Pizza</option>
-            <option label="Taco Quesadila Pizza " value="1200 ">Taco Quesadila Pizza</option>
-            <option label="Mushrooms " value="350 ">Mushrooms</option>
-            <option label="Macaroni And Cheese Pizza " value="700 ">Macaroni And Cheese Pizza</option>
-            <option label="Beef pizza " value="500 ">Beef pizza</option>
-            <option label="Sausage pizza " value="650 ">Sausage pizza</option>
-
-        </select><br>
-            <br><label>pizza Size</label><br>
-            <select class="sizes " id="size " required><br>
-            <option label="Regular " value="300 ">Regular</option>
-            <option label="Medium " value="600 ">Medium</option>
-            <option label="Large " value="1200 ">Large</option>
-        </select><br>
-            <br><label>pizza Crust</label><br>
-            <select class="crust " id="crust " required><br>
-            <option label="Thin Crust " value="150 ">Thin Crust</option>
-            <option label="Thick Crust " value="200 ">Thick Crust</option>
-            <option label="Deep Crust " value="380 ">Deep Crust</option>
-            <option label="Cheese Filled Crust " value="500 ">Cheese Filled Crust</option>
-            <option label="Stuffed Crust " value="345 ">Stuffed Crust</option>
-        </select><br>
-            <br><label>pizza Topping</label><br>
-            <select class="toppings " id="topping " required><br>
-            <option label="Pepperoni " value="100 ">Pepperoni</option>
-            <option label="Mushrooms " value="300 ">Mushrooms</option>
-            <option label="Onions " value="120 ">Onions</option>
-            <option label="Sausage " value="124 ">Sausage</option>
-            <option label="Green peppers " value="80 ">Green peppers</option>
-        </select><br>
-            <br><label>Number of pizza</label><br>
-            <input value=" " required placeholder="number of pizza " id="quantity "></input><br>
-            <div class="button ">
-                <br><br><button type="submit " id="btn " label=" ">submit</button>
-            </div>
-        </form>
-    </div>
-
-
 </body>
 
 </html>

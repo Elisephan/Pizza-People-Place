@@ -1,16 +1,12 @@
 body {
-    background: wheat;
-}
-
-span {
-    color: gray;
+    background-color: black;
 }
 
 .nav h3 {
     font-weight: bold;
     font-size: 50px;
     color: coral;
-    font-family: "Chilanka", cursive;
+    font-family: 'Chilanka', cursive;
     padding-top: 1%;
     padding-left: 1%;
 }
@@ -48,10 +44,10 @@ li a:hover {
 }
 
 h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
     text-align: center;
-    color: black;
+    color: paleturquoise;
     padding: 300px;
 }
 
@@ -66,7 +62,7 @@ h1 {
     padding-top: 5%;
     text-align: center;
     font-size: 50px;
-    font-family: "Shadows Into Light", cursive;
+    font-family: 'Shadows Into Light', cursive;
     color: coral;
 }
 
@@ -137,7 +133,7 @@ p {
     content: attr(data-text);
     font-size: 60px;
     color: black;
-    font-family: "Chilanka", cursive;
+    font-family: 'Chilanka', cursive;
 }
 
 
@@ -150,7 +146,7 @@ p {
 
 #orders h2 {
     padding-bottom: 2%;
-    font-family: "Shadows Into Light", cursive;
+    font-family: 'Shadows Into Light', cursive;
     color: coral;
 }
 
@@ -158,12 +154,13 @@ p {
 /*Types of pizza*/
 
 .type {
-    padding-top: 25%;
     text-align: center;
+    align-content: center;
 }
 
 .type h2 {
-    font-family: "Shadows Into Light", cursive;
+    padding-top: 2%;
+    font-family: 'Shadows Into Light', cursive;
     color: coral;
 }
 
@@ -172,10 +169,36 @@ p {
 }
 
 .type .img2 {
-    opacity: 1;
+    opacity: 1.0;
     transition: 0.2s;
 }
 
 .type .img2:hover {
     opacity: 0.5;
+}
+
+
+/*footer*/
+
+#contacts {
+    text-align: center;
+    align-content: center;
+}
+
+#contacts {
+    padding-top: 2%;
+    background-color: transparent;
+}
+
+#contacts h4 {
+    padding-bottom: 1%;
+    font-size: 40px;
+    color: coral;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#contacts h6 {
+    padding-top: 3%;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
 }
