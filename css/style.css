@@ -56,7 +56,7 @@ h1 {
 }
 
 .home {
-    background-image: url(..//images/pizza-3411795__342.jpg);
+    background-image: url(..//images/session-2287673__343.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -137,7 +137,7 @@ p {
     content: attr(data-text);
     font-size: 60px;
     color: black;
-    font-family: 'Chilanka', cursive;
+    font-family: "Chilanka", cursive;
 }
 
 
@@ -158,12 +158,11 @@ p {
 /*Types of pizza*/
 
 .type {
+    padding-top: 25%;
     text-align: center;
-    align-content: center;
 }
 
 .type h2 {
-    padding-top: 2%;
     font-family: "Shadows Into Light", cursive;
     color: coral;
 }
